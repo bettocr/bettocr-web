@@ -211,5 +211,8 @@
   color: #FFFFFF;
   background-color: #2867B2 }
 .button.button-linkedin:hover,
+.button.button-linkedin:hover:before {
+    content: 'Ampliamos nuestra red profesional!!!.';
+    white-space: initial; }
 .button.button-linkedin:focus {
   filter: brightness(90%) }
