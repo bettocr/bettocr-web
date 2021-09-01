@@ -205,3 +205,11 @@
 .button.button-sponsors:hover:before {
     content: 'Te gustan los bots que hago?, invitame un café.';
     white-space: initial; }
+
+/* LinkedIn */
+.button.button-linkedin {
+  color: #FFFFFF;
+  background-color: #2867B2 }
+.button.button-linkedin:hover,
+.button.button-linkedin:focus {
+  filter: brightness(90%) }
