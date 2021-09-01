@@ -111,7 +111,25 @@
   background-color: #FF0000 }
 .button.button-youtube:hover,
 .button.button-youtube:hover:before {
-    content: 'Este es mi segundo canal de YouTube, donde subo vlogs y contenido más personal :) No, no ese tipo de contenido.';
+    content: 'Mi canal de youtube, donde subo mis loqueras.';
+    white-space: initial; }
+
+/* Telegram */
+.button.button-telegram {
+  color: #FFFFFF;
+  background-color: #0088CC }
+.button.button-youtube:hover,
+.button.button-youtube:hover:before {
+    content: 'Mi canal de youtube, donde subo mis loqueras.';
+    white-space: initial; }
+
+/* Twitter */
+.button.button-twitter {
+  color: #FFFFFF;
+  background-color: #1DA1F2 }
+.button.button-youtube:hover,
+.button.button-youtube:hover:before {
+    content: 'Mi cuenta donde opino de todo.';
     white-space: initial; }
 
 /* Slides */
