@@ -118,8 +118,8 @@
 .button.button-telegram {
   color: #FFFFFF;
   background-color: #0088CC; }
-.button.button-youtube:hover,
-.button.button-youtube:hover:before {
+.button.button-telegram:hover,
+.button.button-telegram:hover:before {
     content: 'Mi telegram.';
     white-space: initial; }
 
@@ -127,8 +127,8 @@
 .button.button-telegram-tc {
   color: #FFFFFF;
   background-color: #0088CC; }
-.button.button-youtube:hover,
-.button.button-youtube:hover:before {
+.button.button-telegram-tc:hover,
+.button.button-telegram-tc:hover:before {
     content: 'Bot de tipo de cambio.';
     white-space: initial; }
 
@@ -137,8 +137,8 @@
 .button.button-telegram-vcr {
   color: #FFFFFF;
   background-color: #0088CC; }
-.button.button-youtube:hover,
-.button.button-youtube:hover:before {
+.button.button-telegram-vcr:hover,
+.button.button-telegram-vcr:hover:before {
     content: 'Bot Volcanes de Costa Rica.';
     white-space: initial; }
 
