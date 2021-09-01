@@ -117,7 +117,7 @@
 /* Telegram */
 .button.button-telegram {
   color: #FFFFFF;
-  background-color: #0088CC }
+  background-color: #0088CC; }
 .button.button-youtube:hover,
 .button.button-youtube:hover:before {
     content: 'Mi canal de youtube, donde subo mis loqueras.';
@@ -126,7 +126,7 @@
 /* Twitter */
 .button.button-twitter-1 {
   color: #FFFFFF;
-  background-color: #1DA1F2 }
+  background-color: #1DA1F2; }
 .button.button-youtube:hover,
 .button.button-youtube:hover:before {
     content: 'Mi cuenta donde opino de todo.';
