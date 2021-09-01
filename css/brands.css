@@ -120,8 +120,28 @@
   background-color: #0088CC; }
 .button.button-youtube:hover,
 .button.button-youtube:hover:before {
-    content: 'Mi canal de youtube, donde subo mis loqueras.';
+    content: 'Mi telegram.';
     white-space: initial; }
+
+/* Telegram tipo de cambio*/
+.button.button-telegram-tc {
+  color: #FFFFFF;
+  background-color: #0088CC; }
+.button.button-youtube:hover,
+.button.button-youtube:hover:before {
+    content: 'Bot de tipo de cambio.';
+    white-space: initial; }
+
+
+/* Telegram tipo de cambio*/
+.button.button-telegram-vcr {
+  color: #FFFFFF;
+  background-color: #0088CC; }
+.button.button-youtube:hover,
+.button.button-youtube:hover:before {
+    content: 'Bot Volcanes de Costa Rica.';
+    white-space: initial; }
+
 
 /* Twitter */
 .button.button-twitter-1 {
