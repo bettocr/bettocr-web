@@ -95,6 +95,15 @@
 .button.button-default:focus {
   filter: brightness(90%) }
 
+/* kik */
+.button.button-kik {
+  color: #FFFFFF;
+  background-color: #26BEFF }
+.button.button-kik:hover,
+.button.button-kik:focus {
+  filter: brightness(90%) }
+
+
 /* Discord */
 .button.button-discord {
   color: #FFFFFF;
