@@ -95,6 +95,14 @@
 .button.button-default:focus {
   filter: brightness(90%) }
 
+/* Blogger */
+.button.button-blogger {
+  color: #FFFFFF;
+  background-color: #FF5722 }
+.button.button-blogger:hover,
+.button.button-blogger:focus {
+  filter: brightness(90%) }
+
 /* kik */
 .button.button-kik {
   color: #FFFFFF;
