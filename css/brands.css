@@ -307,6 +307,14 @@
 .button.button-twitter:focus {
   filter: brightness(90%) }
 
+/* Mastodon */
+.button.button-mastodon {
+  color: #FFFFFF;
+  background-color: #1DA1F2 }
+.button.button-twitter:hover,
+.button.button-twitter:focus {
+  filter: brightness(90%) }
+
 /* Vimeo */
 .button.button-vimeo {
   color: #FFFFFF;
