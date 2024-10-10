@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rar Stats Radio</title>
+    <style>
+        /* Reset y estilos generales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f3f4f6;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background-color: #0d9488;
+            color: white;
+            padding: 1rem 0;
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .logo-container img {
+            height: 32px;
+            margin-right: 0.5rem;
+        }
+        .logo-container h1 {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 1.5rem;
+        }
+        nav a:hover {
+            color: #99f6e4;
+        }
+
+        /* Hero section */
+        #inicio {
+            background: linear-gradient(to bottom, #0d9488, #14b8a6);
+            color: white;
+            padding: 5rem 0;
+            text-align: center;
+        }
+        #inicio h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        #inicio p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .cta-button {
+            background-color: white;
+            color: #0d9488;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #ccfbf1;
+        }
+        .cta-button svg {
+            margin-right: 0.5rem;
+        }
+
+        /* Características */
+        #caracteristicas {
+            padding: 5rem 0;
+        }
+        #caracteristicas h2 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        .feature {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .feature svg {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 1rem;
+        }
+        .feature h3 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Capturas de pantalla */
+        #capturas {
+            background-color: #e5e7eb;
+            padding: 5rem 0;
+        }
+        #capturas h2 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .slider {
+            position: relative;
+            overflow: hidden;
+        }
+        .slider-container {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .slider-container img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        .slider-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .slider-button.prev {
+            left: 1rem;
+        }
+        .slider-button.next {
+            right: 1rem;
+        }
+
+        /* Descargar */
+        #descargar {
+            background-color: #0d9488;
+            color: white;
+            padding: 5rem 0;
+            text-align: center;
+        }
+        #descargar h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1f2937;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            nav {
+                margin-top: 1rem;
+            }
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+            .cta-buttons {
+                flex-direction: column;
+            }
+            .cta-button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo-container">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-8d2J0BtPZ3LcamYcf8UUmVhl7rwET6.png" alt="Rar Stats Radio Logo">
+                <h1>Rar Stats Radio</h1>
+            </div>
+            <nav>
+                <a href="#inicio">Inicio</a>
+                <a href="#caracteristicas">Características</a>
+                <a href="#capturas">Capturas</a>
+                <a href="#descargar">Descargar</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="container">
+                <h2>Estadísticas de radio online al alcance de tu mano</h2>
+                <p>Obtén información detallada de tus estaciones de radio Shoutcast y Icecast favoritas directamente desde tu navegador.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="cta-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="21.17" y1="8" x2="12" y2="8"/><line x1="3.95" y1="6.06" x2="8.54" y2="14"/><line x1="10.88" y1="21.94" x2="15.46" y2="14"/></svg>
+                        Descargar para Chrome
+                    </a>
+                    <a href="#" class="cta-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        Descargar para Edge
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="caracteristicas">
+            <div class="container">
+                <h2>Características principales</h2>
+                <div class="features-grid">
+                    <div class="feature">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                        <h3>Estadísticas en tiempo real</h3>
+                        <p>Visualiza oyentes actuales, pico de audiencia y más información actualizada al instante.</p>
+                    </div>
+                    <div class="feature">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v3a3 3 0 0 0 3 3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+                        <h3>Soporte para Shoutcast y Icecast</h3>
+                        <p>Compatible con los servidores de streaming más populares del mercado.</p>
+                    </div>
+                    <div class="feature">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+                        <h3>Interfaz intuitiva</h3>
+                        <p>Diseño fácil de usar que te permite acceder a la información que necesitas con un solo clic.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="capturas">
+            <div class="container">
+                <h2>Capturas de pantalla</h2>
+                <div class="slider">
+                    <div class="slider-container">
+                        <img src="/placeholder.svg?height=400&width=600" alt="Captura 1">
+                        <img src="/placeholder.svg?height=400&width=600" alt="Captura 2">
+                        <img src="/placeholder.svg?height=400&width=600" alt="Captura 3">
+                    </div>
+                    <button class="slider-button prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+                    </button>
+                    <button class="slider-button next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="descargar">
+            <div class="container">
+                <h2>¡Descarga ahora y potencia tu experiencia de radio online!</h2>
+                <div class="cta-buttons">
+                    <a href="#" class="cta-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="21.17" y1="8" x2="12" y2="8"/><line x1="3.95" y1="6.06" x2="8.54" y2="14"/><line x1="10.88" y1="21.94" x2="15.46" y2="14"/></svg>
+                        Descargar para Chrome
+                    </a>
+                    <a href="#" class="cta-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        Descargar para Edge
+                    
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rar Stats Radio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Slider functionality
+        const sliderContainer = document.querySelector('.slider-container');
+        const prevButton = document.querySelector('.slider-button.prev');
+        const nextButton = document.querySelector('.slider-button.next');
+        let currentSlide = 0;
+        const totalSlides = document.querySelectorAll('.slider-container img').length;
+
+        function updateSlider() {
+            sliderContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+
+        prevButton.addEventListener('click', () => {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            updateSlider();
+        });
+
+        nextButton.addEventListener('click', () => {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            updateSlider();
+        });
+
+        // Auto-slide
+        setInterval(() => {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            updateSlider();
+        }, 5000);
+    </script>
+</body>
+</html>
