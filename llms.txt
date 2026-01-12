@@ -1,0 +1,47 @@
+# betto.me — Roberto Arias (@BettoCR)
+
+> Hub personal de enlaces, proyectos y herramientas. Desarrollo soluciones prácticas en Ciberseguridad, DMARC, extensiones de navegador y plataformas de streaming/radio, con enfoque técnico y operativo.
+
+Este sitio funciona como un directorio curado tipo “link hub”:
+- La página principal enlaza a las secciones clave.
+- Las secciones internas listan directamente proyectos, bots y extensiones.
+- La sección de redes centraliza todos los canales públicos y contenido.
+
+## Qué tipo de trabajo y contenido encontrarás aquí
+
+- Desarrollo web (principalmente WordPress y sitios funcionales)
+- Bots y automatización (Telegram, consultas técnicas, utilidades)
+- Extensiones de navegador (Chrome / Edge)
+- Plataformas de radio y streaming en línea
+- Publicaciones técnicas (libros y contenido educativo)
+
+## Inicio
+
+- [Inicio](https://betto.me/): Página principal con enlaces prioritarios, categorías, contacto y apoyo
+
+## Secciones principales del hub
+
+- [Redes sociales y contenido](https://betto.me/redes-sociales):
+  Canales públicos, blog, GitHub, plataformas sociales y listas de contenido
+
+- [Proyectos / Emprendimientos](https://betto.me/proyectos):
+  Marcas y activos principales como RAR Computación, servicios relacionados y libros
+
+- [Bots](https://betto.me/bots):
+  Bots publicados (principalmente en Telegram y X) para tipo de cambio, dominios, IPs, eventos y utilidades
+
+- [Extensiones](https://betto.me/extensiones):
+  Extensiones de navegador, incluyendo RAR Stats Radio para Edge y Chrome
+
+## Contacto y apoyo
+
+- [Contacto](https://betto.me/):
+  Enlaces directos a correo, LinkedIn y mensajería desde la página principal
+
+- [Apoyo](https://betto.me/):
+  Enlaces a Ko-fi y PayPal desde la página principal
+
+## Optional
+
+- [LinkedIn](https://betto.me/): Perfil profesional
+- [Mis Libros](https://betto.me/): Enlace a publicaciones en Amazon
