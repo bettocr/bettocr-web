@@ -650,3 +650,15 @@
     --button-background: #8ac643;
     --button-border: 1px solid #000000;
 }
+/* RAR Stats Radio - Edge */
+.button-rar-stats-radio---edge {
+    --button-text: #0078d4;
+    --button-background: #001b36;
+    --button-border: 1px solid #FFFFFF;
+}
+/* RAR Stats Radio - Chrome */
+.button-rar-stats-radio---chrome {
+    --button-text: #4285f4;
+    --button-background: #202124;
+    --button-border: 1px solid #FFFFFF;
+}
