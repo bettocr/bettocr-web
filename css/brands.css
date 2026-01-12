@@ -662,3 +662,13 @@
     --button-background: #202124;
     --button-border: 1px solid #FFFFFF;
 }
+/* Mis Proyectos */
+.button-mis-proyectos {
+    --button-text: #ffffff;
+    --button-background: #0080ff;
+}
+/* Mis Redes Sociales */
+.button-mis-redes-sociales {
+    --button-text: #ffffff;
+    --button-background: #0080ff;
+}
