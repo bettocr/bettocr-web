@@ -631,3 +631,10 @@
 	--button-background:#0B5CFF;
   --button-border:1px solid #FFFFFF;
 }
+
+/* Agregado por mi */
+/* Home */
+.button-home {
+    --button-text: #ffffff;
+    --button-background: #2457f5;
+}
