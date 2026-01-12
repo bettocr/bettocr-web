@@ -644,3 +644,9 @@
     --button-background: #ffffff;
     --button-border: 1px solid #000000;
 }
+/* RAR Computación */
+.button-rar-computaci-n {
+    --button-text: #ffffff;
+    --button-background: #8ac643;
+    --button-border: 1px solid #000000;
+}
