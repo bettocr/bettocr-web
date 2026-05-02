@@ -18,9 +18,9 @@
 /* Global Button Hover Effect
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button:hover,button:hover {
-	filter:brightness(110%);
-	transform:translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	filter:brightness(115%);
+	transform:translateY(-4px);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.15);
 }
 
 /* Button Icons
