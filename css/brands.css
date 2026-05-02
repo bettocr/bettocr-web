@@ -675,7 +675,9 @@
 
 /* RAR Stats Radio - Roku */
 .button-rar-stats-radio---roku {
-    --button-text: #FFFFFF;
-    --button-background: #662D91;
-    --button-border: 1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #662d91;
+    --button-border: 1px solid #ffffff;
+    background-color: #662d91 !important;
+    color: #ffffff !important;
 }
