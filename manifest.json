@@ -1,0 +1,21 @@
+{
+  "name": "Roberto Arias | @BettoCR",
+  "short_name": "BettoCR",
+  "description": "Hub personal de Roberto Arias (@BettoCR) - Proyectos, Bots y Ciberseguridad.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#662D91",
+  "icons": [
+    {
+      "src": "/images/avatar.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/avatar.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
