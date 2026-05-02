@@ -12,14 +12,15 @@
   color:var(--button-text,#000000);
   background-color:var(--button-background,transparent);
 	border:var(--button-border,none);
-	transition:filter 0.2s ease,transform 0.2s ease;
+	transition:all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 /* Global Button Hover Effect
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button:hover,button:hover {
-	filter:brightness(90%);
-	transform:translateY(-1px);
+	filter:brightness(110%);
+	transform:translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 /* Button Icons

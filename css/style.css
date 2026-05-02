@@ -67,7 +67,7 @@
 	padding:0;
 	background-color:#ffffff;
 	color:#1a1a1a;
-	font-family:"Open Sans",system-ui;
+	font-family:"Outfit","Open Sans",system-ui;
 	font-size:1.125rem;     				/* 18px */
     font-weight:400;
 	line-height:1.6;
@@ -147,6 +147,18 @@ body {
 .container {
 	padding:var(--spacing-xl) var(--spacing-m) 0 var(--spacing-m);
 	text-align:center;
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Footer */
