@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://betto.me/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://betto.me/redes-sociales</loc>
+    <lastmod>2026-05-02</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://betto.me/proyectos</loc>
+    <lastmod>2026-05-02</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://betto.me/bots</loc>
+    <lastmod>2026-05-02</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://betto.me/extensiones</loc>
+    <lastmod>2026-05-02</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://betto.me/privacy</loc>
+    <lastmod>2026-05-02</lastmod>
+    <priority>0.30</priority>
+  </url>
+</urlset>
