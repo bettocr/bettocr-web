@@ -641,7 +641,7 @@
 }
 /* Tipo de Cambio Skill */
 .button-tipo-de-cambio-skill {
-    --button-text: #05a0d1;
+    --button-text: #00759b;
     --button-background: #ffffff;
     --button-border: 1px solid #000000;
 }
@@ -666,12 +666,12 @@
 /* Mis Proyectos */
 .button-mis-proyectos {
     --button-text: #ffffff;
-    --button-background: #0080ff;
+    --button-background: #0066cc;
 }
 /* Mis Redes Sociales */
 .button-mis-redes-sociales {
     --button-text: #ffffff;
-    --button-background: #0080ff;
+    --button-background: #0066cc;
 }
 
 /* RAR Stats Radio - Roku */
