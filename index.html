@@ -21,22 +21,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#662D91">
+    <meta name="theme-color" content="#c91f2a">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
-    <title>Roberto Arias | @BettoCR - Hub de Proyectos, Bots y Ciberseguridad</title>
+    <title>Roberto Arias (@BettoCR) | Ciberseguridad, Bots y Tecnología</title>
     <link rel="icon" type="image/x-icon" href="/images/avatar.png"> <!-- Update this with your own favicon -->
 
     <!-- Meta Description - Write a description (150-160 characters recommended) -->
-    <meta name="description" content="Bienvenido al hub personal de Roberto Arias (@BettoCR). Explora mis proyectos de ciberseguridad, bots de Telegram, extensiones de navegador y herramientas técnicas desarrolladas para la comunidad.">
+    <meta name="description" content="Contacta con Roberto Arias (@BettoCR), ingeniero en sistemas de Costa Rica especializado en ciberseguridad, bots, automatización y herramientas digitales.">
 
     <!-- Keywords -->
     <meta name="keywords" content="Roberto Arias, BettoCR, Ingeniero en sistemas">
 
     <!-- Canonical URL - Helps prevent duplicate content issues -->
-    <meta rel="canonical" href="https://betto.me">
+    <link rel="canonical" href="https://betto.me/">
 
     <!-- Author Information -->
     <meta name="author" content="Roberto Arias">
@@ -44,21 +44,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://betto.me/">
-    <meta property="og:title" content="Roberto Arias | @BettoCR - Hub de Proyectos, Bots y Ciberseguridad">
-    <meta property="og:description" content="Bienvenido al hub personal de Roberto Arias (@BettoCR). Explora mis proyectos de ciberseguridad, bots de Telegram, extensiones de navegador y herramientas técnicas.">
-    <meta property="og:image" content="https://betto.me/images/avatar.png">
+    <meta property="og:title" content="Roberto Arias (@BettoCR) | Ciberseguridad, Bots y Tecnología">
+    <meta property="og:description" content="Contacto, proyectos de ciberseguridad, bots, automatización y herramientas digitales creadas por Roberto Arias (@BettoCR).">
+    <meta property="og:image" content="https://betto.me/images/avatar@2x.png">
+    <meta property="og:image:alt" content="Identidad visual de Roberto Arias, @BettoCR">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary">
     <meta property="twitter:url" content="https://betto.me/">
-    <meta property="twitter:title" content="Roberto Arias | @BettoCR - Hub de Proyectos, Bots y Ciberseguridad">
-    <meta property="twitter:description" content="Bienvenido al hub personal de Roberto Arias (@BettoCR). Explora mis proyectos de ciberseguridad, bots de Telegram, extensiones de navegador y herramientas técnicas.">
-    <meta property="twitter:image" content="https://betto.me/images/avatar.png">
+    <meta property="twitter:title" content="Roberto Arias (@BettoCR) | Ciberseguridad, Bots y Tecnología">
+    <meta property="twitter:description" content="Contacto, proyectos de ciberseguridad, bots, automatización y herramientas digitales de @BettoCR.">
+    <meta property="twitter:image" content="https://betto.me/images/avatar@2x.png">
+    <meta property="twitter:image:alt" content="Identidad visual de Roberto Arias, @BettoCR">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="css/theme.css">
 
     <!-- LittleLink Extended Stylesheet (Optional) -->
     <!-- <link rel="stylesheet" href="css/brands-extended.css"> -->
@@ -97,7 +100,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-    <div class="container">
+    <main class="container">
         <div class="column">
 
             <!--
@@ -108,52 +111,61 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
               Be sure to replace the src with your own image path and update the alt text
             -->
-            <img class="avatar avatar--rounded" src="images/avatar.png" srcset="images/avatar@2x.png 2x" alt="Roberto Arias | @BettoCR">
+            <img class="avatar avatar--rounded" src="images/avatar.png" srcset="images/avatar@2x.png 2x" alt="Roberto Arias, BettoCR" width="104" height="104">
 
             <!-- Replace with your name or brand -->
-            <h1>
-              <div>Roberto Arias | @BettoCR</div>
-            </h1>
+            <h1>Roberto Arias</h1>
+            <p class="profile-handle">@BettoCR</p>
 
             <!-- Add a short description about yourself or your brand -->
-            <p>Ingeniero en Sistemas apasionado por la ciberseguridad y el desarrollo de soluciones tecnológicas. Explora mi portafolio de proyectos, herramientas y canales de contacto.</p>
+            <p class="profile-copy">Ingeniero en Sistemas apasionado por la ciberseguridad y el desarrollo de soluciones tecnológicas.</p>
+            <p class="profile-specialties">Desarrollo herramientas de seguridad de correo, automatizaciones, bots de Telegram y aplicaciones multiplataforma para la comunidad.</p>
 
-            <!-- All your buttons go here -->
-            <div class="button-stack" role="navigation">
+            <nav class="link-group" aria-labelledby="contacto-title">
+              <h2 class="link-group-title" id="contacto-title">Contáctame</h2>
+              <div class="button-stack">
+                <a class="button button-primary" href="mailto:hola@betto.me" data-track="contact_email"><img class="icon" aria-hidden="true" src="images/icons/generic-email.svg" alt="">Envíame un correo</a>
+                <a class="button" href="https://www.linkedin.com/in/bettocr/" target="_blank" rel="noopener" data-track="contact_linkedin"><img class="icon" aria-hidden="true" src="images/icons/linkedin.svg" alt="">LinkedIn</a>
+                <a class="button" href="https://t.me/bettocr" target="_blank" rel="noopener" data-track="contact_telegram"><img class="icon" aria-hidden="true" src="images/icons/telegram.svg" alt="">Telegram</a>
+                <a class="button" href="redes-sociales.html" data-track="social_networks"><img class="icon" aria-hidden="true" src="images/icons/share-google-svgrepo-com.svg" alt="">Redes sociales</a>
+              </div>
+            </nav>
 
-              <!-- LinkedIn -->
-              <a class="button button-linked" href="https://www.linkedin.com/in/bettocr/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
+            <nav class="link-group" aria-labelledby="explorar-title">
+              <h2 class="link-group-title" id="explorar-title">También puedes explorar</h2>
+              <div class="compact-links">
+                <a class="button" href="proyectos.html" data-track="projects"><img class="icon" aria-hidden="true" src="images/icons/generic-cloud.svg" alt="">Proyectos de tecnología</a>
+                <a class="button" href="bots.html" data-track="bots"><img class="icon" aria-hidden="true" src="images/icons/generic-code.svg" alt="">Bots y automatización</a>
+                <a class="button" href="extensiones.html" data-track="extensions"><img class="icon" aria-hidden="true" src="images/icons/generic-computer.svg" alt="">Extensiones y aplicaciones</a>
+                <a class="button" href="https://amazon.com/author/bettocr" target="_blank" rel="noopener" data-track="books"><img class="icon" aria-hidden="true" src="images/icons/amazon.svg" alt="">Libros publicados</a>
+              </div>
+            </nav>
 
-              <!-- Amazon -->
-              <a class="button button-amazon" href="https://amazon.com/author/bettocr" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/amazon.svg" alt="Mis libros en Amazon">Mis Libros</a>
-
-              <!-- Mis Redes Sociales -->
-              <a id="btn-redes-sociales" class="button button-mis-redes-sociales" href="redes-sociales.html" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/share-google-svgrepo-com.svg" alt="Mis Redes Sociales icon">Redes Sociales</a>
-              <!-- Mis Proyectos -->
-              <a id="btn-proyectos" class="button button-mis-proyectos" href="proyectos.html" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/default-icon.svg" alt="Mis Proyectos icon">Mis Proyectos</a>
-              <!-- Mis Bots -->
-              <a id="btn-bots" class="button button-default" href="bots.html" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-code.svg" alt="Mis Bots icon">Mis Bots</a>
-              <!-- Extensiones y Apps -->
-              <a id="btn-extensiones" class="button button-default" href="extensiones.html" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-computer.svg" alt="Extensiones y Apps icon">Extensiones y Apps</a>
-              <!-- Generic Email -->
-              <a class="button button-default" href="Mailto:hola@betto.me" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-email.svg" alt="Email Icon">Mi correo</a>
-              <!-- Ko-fi -->
-              <a class="button button-ko-fi" href="https://ko-fi.com/bettocr" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/ko-fi.svg" alt="Ko-fi Logo">Invitame un Café</a>
-
-              <!-- PayPal -->
-              <a class="button button-paypal" href="http://paypal.me/bettome" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/paypal.svg" alt="PayPal Logo">PayPal</a>
-
-            
-      </div>
+            <nav class="link-group" aria-labelledby="apoyo-title">
+              <h2 class="link-group-title" id="apoyo-title">Apoya el desarrollo</h2>
+              <p class="link-group-note">Tu aporte ayuda a mantener gratuitos los bots, extensiones y herramientas para la comunidad.</p>
+              <div class="button-stack">
+                <a class="button" href="https://ko-fi.com/bettocr" target="_blank" rel="noopener" data-track="support_kofi"><img class="icon" aria-hidden="true" src="images/icons/ko-fi.svg" alt="">Invítame un café</a>
+                <a class="button" href="https://paypal.me/bettome" target="_blank" rel="noopener" data-track="support_paypal"><img class="icon" aria-hidden="true" src="images/icons/paypal.svg" alt="">Apoyar con PayPal</a>
+              </div>
+            </nav>
 
       <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
       <footer>
-        <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a>
+        <a href="privacy.html">Política de privacidad</a> | <a href="terms.html">Términos y condiciones</a>
       </footer>
 
     </div>
-  </div>
+  </main>
 
+  <script>
+    document.addEventListener('click', function (event) {
+      var link = event.target.closest('[data-track]');
+      if (!link) return;
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'bettocr_link_click', link_name: link.dataset.track, link_url: link.href });
+    });
+  </script>
 </body>
 
 </html>
