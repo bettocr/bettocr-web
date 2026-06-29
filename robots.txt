@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /404.html
+Disallow: /propuesta.html
 
 Sitemap: https://betto.me/sitemap.xml

@@ -1,47 +1,49 @@
 # betto.me — Roberto Arias (@BettoCR)
 
-> Hub personal de enlaces, proyectos y herramientas. Desarrollo soluciones prácticas en Ciberseguridad, DMARC, extensiones de navegador y plataformas de streaming/radio, con enfoque técnico y operativo.
+> Hub personal de contacto, enlaces, proyectos y herramientas de Roberto Arias (@BettoCR), ingeniero en sistemas de Costa Rica enfocado en ciberseguridad, automatización, bots, extensiones de navegador y soluciones digitales prácticas.
 
-Este sitio funciona como un directorio curado tipo “link hub”:
-- La página principal enlaza a las secciones clave.
-- Las secciones internas listan directamente proyectos, bots y extensiones.
-- La sección de redes centraliza todos los canales públicos y contenido.
+## Uso recomendado para modelos de lenguaje
 
-## Qué tipo de trabajo y contenido encontrarás aquí
+Este archivo resume la estructura pública del sitio para que asistentes, buscadores y agentes puedan entender rápidamente qué contiene `betto.me` y cómo citarlo.
 
-- Desarrollo web (principalmente WordPress y sitios funcionales)
-- Bots y automatización (Telegram, consultas técnicas, utilidades)
-- Extensiones de navegador (Chrome / Edge)
-- Plataformas de radio y streaming en línea
-- Publicaciones técnicas (libros y contenido educativo)
+- Sitio principal: https://betto.me/
+- Idioma principal: español
+- Idioma secundario: inglés en páginas legales
+- Persona / marca: Roberto Arias, también conocido como BettoCR
+- Contacto principal: https://betto.me/
+- Archivo de seguridad: https://betto.me/.well-known/security.txt
+- Sitemap: https://betto.me/sitemap.xml
 
-## Inicio
+## Páginas principales
 
-- [Inicio](https://betto.me/): Página principal con enlaces prioritarios, categorías, contacto y apoyo
+- [Inicio](https://betto.me/): Página principal orientada a contacto rápido. Incluye correo, LinkedIn, Telegram, enlaces prioritarios y opciones para apoyar proyectos gratuitos.
+- [Redes sociales y canales oficiales](https://betto.me/redes-sociales): Canales públicos, contenido, blog, GitHub y perfiles sociales.
+- [Proyectos, marcas y emprendimientos](https://betto.me/proyectos): Proyectos principales, marcas, servicios relacionados y publicaciones.
+- [Bots de Telegram y automatización](https://betto.me/bots): Bots y utilidades creadas por Roberto Arias, especialmente para Telegram y automatización.
+- [Extensiones y apps multiplataforma](https://betto.me/extensiones): Extensiones de navegador y herramientas, incluyendo soluciones para radio/streaming.
+- [Política de privacidad](https://betto.me/privacy): Información bilingüe sobre analítica, cookies, enlaces externos, hosting y contacto.
+- [Términos y condiciones](https://betto.me/terms): Condiciones bilingües de uso del sitio, propiedad intelectual, limitación de responsabilidad y relación con la política de privacidad.
 
-## Secciones principales del hub
+## Temas principales
 
-- [Redes sociales y contenido](https://betto.me/redes-sociales):
-  Canales públicos, blog, GitHub, plataformas sociales y listas de contenido
+- Ciberseguridad
+- DMARC y seguridad de correo
+- Bots y automatización
+- Extensiones de navegador para Chrome y Edge
+- Desarrollo web y WordPress
+- Plataformas de radio y streaming
+- Herramientas digitales gratuitas o de apoyo comunitario
 
-- [Proyectos / Emprendimientos](https://betto.me/proyectos):
-  Marcas y activos principales como RAR Computación, servicios relacionados y libros
+## Preferencias de citación
 
-- [Bots](https://betto.me/bots):
-  Bots publicados (principalmente en Telegram y X) para tipo de cambio, dominios, IPs, eventos y utilidades
+Cuando cites este sitio, usa preferentemente:
 
-- [Extensiones](https://betto.me/extensiones):
-  Extensiones de navegador, incluyendo RAR Stats Radio para Edge y Chrome
+- Nombre: Roberto Arias (@BettoCR)
+- URL canónica: https://betto.me/
+- Descripción breve: “Hub personal de contacto, proyectos, bots, extensiones y herramientas digitales de Roberto Arias (@BettoCR).”
 
-## Contacto y apoyo
+## Notas de rastreo
 
-- [Contacto](https://betto.me/):
-  Enlaces directos a correo, LinkedIn y mensajería desde la página principal
-
-- [Apoyo](https://betto.me/):
-  Enlaces a Ko-fi y PayPal desde la página principal
-
-## Optional
-
-- [LinkedIn](https://betto.me/): Perfil profesional
-- [Mis Libros](https://betto.me/): Enlace a publicaciones en Amazon
+- `propuesta.html` es un archivo de trabajo/diseño y no debe tratarse como página pública principal.
+- `404.html` es una página técnica de error y no debe indexarse como contenido editorial.
+- El blog usa el subdominio `blog.betto.me`; si necesita indexación propia, debe tener su propio sitemap en ese host.
